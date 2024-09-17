@@ -1,0 +1,83 @@
+﻿@model IEnumerable<DepartmentViewModel>
+@{
+    ViewData["Title"] = "All";
+}
+
+<div class="d-flex justify-content-start align-items-center">
+    <h1>All Departments</h1>
+    <a class="btn btn-outline-success mx-3" asp-area=""  asp-action="Add">Add New Department</a>
+</div>
+
+@if(TempData["DepartmentAdd"] is not null)
+{
+    <div class="alert alert-success MessageDiv">
+        @TempData["DepartmentAdd"]
+    </div>
+}
+@if(TempData["DepartmentEdit"] is not null)
+{
+    <div class="alert alert-warning MessageDiv">
+        @TempData["DepartmentEdit"]
+    </div>
+}
+@if (TempData["DepartmentDelete"] is not null)
+{
+    <div class="alert alert-danger MessageDiv">
+        @TempData["DepartmentDelete"]
+    </div>
+}
+
+<div class="mx-auto w-75 my-5">
+    <form class="row" asp-action="All">
+        <div class="col-8">
+            <input type="text" placeholder="Search Department" class="form-control" name="SearchValue" />
+        </div>
+        <div class="col-4">
+            <input type="submit" class="btn btn-outline-info" value="Search" />
+        </div>
+    </form>
+
+</div>
+<table class="table table-striped table-hover">
+    @if (Model.Count() > 0){
+    <thead>
+        <tr class="text-center">
+            <td>@Html.DisplayNameFor(d => d.Id)</td>
+            <td>@Html.DisplayNameFor(d => d.Name)</td>
+            <td>@Html.DisplayNameFor(d => d.Code)</td>
+            <td>@Html.DisplayNameFor(d => d.DateOfCreation)</td>
+            <td>Details</td>
+            <td>Update</td>
+            <td>Delete</td>
+
+        </tr>
+    </thead>
+    <tbody>
+       
+        
+            @foreach(var res in Model)
+            {
+                <tr class="text-center">
+                    <td>@res.Id</td>
+                    <td>@res.Name</td>
+                    <td>@res.Code</td>
+                    @if(@res.DateOfCreation is null){
+                        <td class="text-danger">no info</td>
+                    }
+                    else
+                    {
+                        <td>@res.DateOfCreation</td>
+                    }
+
+                    <partial name="../_ButtonsPartialView" model="@res.Id" />
+                </tr>
+            }
+        </tbody>
+        }
+        else
+        {
+            <div class="alert alert-warning rounded-2 p-5 mt-3 mx-auto">No Departments Available at the moment</div>
+        }
+    
+</table>
+

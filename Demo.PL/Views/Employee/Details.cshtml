@@ -1,0 +1,93 @@
+﻿@model EmployeeViewModel
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1 class="my-5 text-center">Employee @Model.Id  Details</h1>
+
+
+
+<div>
+    <input asp-for="ImageName" hidden />
+    <label class="col-form-label" asp-for="Name"></label>
+    <input readonly class="form-control" asp-for="Name" />
+
+</div>
+
+<div style="border-radius:30px; width: fit-content; border:5px solid;" class="border-info my-3 p-2 mx-auto text-center bg-transparent">
+    Employee Id is @Model.Id
+</div>
+
+<div style="border-radius:30px; width: fit-content; border:5px solid;" class="border-info my-3 p-2 mx-auto text-center bg-transparent">
+    Employee Name is @Model.Name
+</div>
+<div style="border-radius:30px; width: fit-content; border:5px solid;" class="border-info my-3 p-2 mx-auto text-center bg-transparent">
+    Employee Age is @if(@Model.Age is null)
+    {
+        <span class="text-danger">no info</span>
+    }
+    else
+    {
+        @Model.Age
+    }
+</div>
+<div style="border-radius:30px; width: fit-content; border:5px solid;" class="border-info my-3 p-2 mx-auto text-center bg-transparent">
+    Employee Address is @if (@Model.Address is null)
+    {
+        <span class="text-danger">no info</span>
+    }
+    else
+    {
+        @Model.Address
+    }
+</div>
+<div style="border-radius:30px; width: fit-content; border:5px solid;" class="border-info my-3 p-2 mx-auto text-center bg-transparent">
+    Employee Salary is @Model.Salary
+</div>
+<div style="border-radius:30px; width: fit-content; border:5px solid;" class="border-info my-3 p-2 mx-auto text-center bg-transparent">
+    Employee Activity State @Model.IsActive
+</div>
+<div style="border-radius:30px; width: fit-content; border:5px solid;" class="border-info my-3 p-2 mx-auto text-center bg-transparent">
+   Employee Email  is @Model.Email
+</div>
+<div style="border-radius:30px; width: fit-content; border:5px solid;" class="border-info my-3 p-2 mx-auto text-center bg-transparent">
+    Employee Phone Number is @Model.PhoneNumber
+</div>
+<div style="border-radius:30px; width: fit-content; border:5px solid;" class="border-info my-3 p-2 mx-auto text-center bg-transparent">
+    Employee Hire date is @if (@Model.HireDate is null)
+    {
+        <span class="text-danger">no info</span>
+    }
+    else
+    {
+        @Model.HireDate
+    }
+</div>
+<div style="border-radius:30px; width: fit-content; border:5px solid;" class="border-info my-3 p-2 mx-auto text-center bg-transparent">
+    Employee Date of Creation is @if (@Model.DateOfCreation is null)
+    {
+        <span class="text-danger">no info</span>
+    }
+    else
+    {
+        @Model.DateOfCreation
+    }
+</div>
+
+<div style="border-radius:30px; width: fit-content; border:5px solid;" class="border-info my-3 p-2 mx-auto text-center bg-transparent">
+    Employee Department ID @if (@Model.DepartmentId is null)
+    {
+        <span class="text-danger">no info</span>
+    }
+    else
+    {
+        @Model.DepartmentId
+    }
+</div>
+
+
+
+<div class="mt-5 d-flex justify-content-center align-items-center">
+    <a class="btn btn-outline-dark" asp-action="All">Back to List</a>
+</div>
+

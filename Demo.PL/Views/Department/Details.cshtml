@@ -1,0 +1,70 @@
+﻿@model DepartmentViewModel
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1 class="my-5 text-center">Department @Model.Id Details</h1>
+
+
+
+<div style="border-radius:30px; width: fit-content; border:5px solid;" class="border-info my-3 p-2 mx-auto text-center bg-transparent">
+    Department Id is @Model.Id
+</div>
+
+<div style="border-radius:30px; width: fit-content; border:5px solid;" class="border-info my-3 p-2 mx-auto text-center bg-transparent">
+    Department Name is @Model.Name
+</div>
+
+<div style="border-radius:30px; width: fit-content; border:5px solid;" class="border-info my-3 p-2 mx-auto text-center bg-transparent">
+    Department Code is @Model.Code
+</div>
+
+<div style="border-radius:30px; width: fit-content; border:5px solid;" class="border-info my-3 p-2 mx-auto text-center bg-transparent">
+    Department Date of Creation is @if (@Model.DateOfCreation is null)
+    {
+        <span class="text-danger">no info</span>
+    }
+    else
+    {
+        @Model.DateOfCreation
+    }
+</div>
+
+
+<div class="mt-5 d-flex justify-content-center align-items-center">
+    <a class="btn btn-outline-dark" asp-action="All">Back to List</a>
+</div>
+
+@*
+
+<form asp-action="EditDepartment">
+
+    <div class="my-2">
+        <label class="col-form-label" asp-for="Code">
+
+        </label>
+        <input class="form-control" value="@Model.Code" asp-for="Code" />
+        <span asp-validation-for="Code" class="text-danger"></span>
+    </div>
+    <div class="my-2">
+        <label class="col-form-label" asp-for="Name">
+
+        </label>
+        <input value="@Model.Name" class="form-control" asp-for="Name" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+    <div class="my-2">
+        <label class="col-form-label" asp-for="DateOfCreation">
+
+        </label>
+        <input value="@Model.DateOfCreation.Date" class="form-control" asp-for="DateOfCreation" />
+
+    </div>
+  <div class="mt-5">
+        <input type="submit" name="Edit Department"  class="btn btn-outline-success" />
+        <a class="btn btn-outline-dark" asp-action="AllDepartments">Back to List</a>
+  </div>
+
+</form>
+
+*@

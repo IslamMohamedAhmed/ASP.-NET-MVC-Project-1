@@ -1,0 +1,40 @@
+﻿@model DepartmentViewModel
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1 class="my-5 text-center">Edit Department</h1>
+<form asp-action="Edit">
+    <div asp-validation-summary="All"></div>
+    <div class="my-2">
+        <label class="col-form-label" asp-for="Code">
+
+        </label>
+        <input class="form-control" asp-for="Code" />
+        <span asp-validation-for="Code" class="text-danger"></span>
+    </div>
+    <div class="my-2">
+        <label class="col-form-label" asp-for="Name">
+
+        </label>
+        <input class="form-control" asp-for="Name" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+    <div class="my-2">
+        <label class="col-form-label" asp-for="DateOfCreation">
+
+        </label>
+        <input class="form-control" asp-for="DateOfCreation" />
+
+    </div>
+    <div class="mt-5">
+        <input type="submit" value="Save" class="btn btn-outline-warning" />
+        <a class="btn btn-outline-dark" asp-action="All">Back to List</a>
+    </div>
+
+</form>
+
+@section ValidationScriptSection {
+    <partial name="../Shared/_ValidationScriptsPartial" />
+
+}

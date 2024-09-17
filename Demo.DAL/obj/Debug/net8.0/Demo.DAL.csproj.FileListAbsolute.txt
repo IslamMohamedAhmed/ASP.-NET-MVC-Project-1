@@ -1,0 +1,14 @@
+C:\Users\Islam Mohamed\source\repos\MVCTest8.0\Demo.DAL\bin\Debug\net8.0\Demo.DAL.deps.json
+C:\Users\Islam Mohamed\source\repos\MVCTest8.0\Demo.DAL\bin\Debug\net8.0\Demo.DAL.dll
+C:\Users\Islam Mohamed\source\repos\MVCTest8.0\Demo.DAL\bin\Debug\net8.0\Demo.DAL.pdb
+C:\Users\Islam Mohamed\source\repos\MVCTest8.0\Demo.DAL\obj\Debug\net8.0\Demo.DAL.csproj.AssemblyReference.cache
+C:\Users\Islam Mohamed\source\repos\MVCTest8.0\Demo.DAL\obj\Debug\net8.0\Demo.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Islam Mohamed\source\repos\MVCTest8.0\Demo.DAL\obj\Debug\net8.0\Demo.DAL.AssemblyInfoInputs.cache
+C:\Users\Islam Mohamed\source\repos\MVCTest8.0\Demo.DAL\obj\Debug\net8.0\Demo.DAL.AssemblyInfo.cs
+C:\Users\Islam Mohamed\source\repos\MVCTest8.0\Demo.DAL\obj\Debug\net8.0\Demo.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Islam Mohamed\source\repos\MVCTest8.0\Demo.DAL\obj\Debug\net8.0\Demo.DAL.dll
+C:\Users\Islam Mohamed\source\repos\MVCTest8.0\Demo.DAL\obj\Debug\net8.0\refint\Demo.DAL.dll
+C:\Users\Islam Mohamed\source\repos\MVCTest8.0\Demo.DAL\obj\Debug\net8.0\Demo.DAL.pdb
+C:\Users\Islam Mohamed\source\repos\MVCTest8.0\Demo.DAL\obj\Debug\net8.0\ref\Demo.DAL.dll
+C:\Users\Islam Mohamed\source\repos\MVCTest8.0\Demo.DAL\bin\Debug\net8.0\Demo.DAL.runtimeconfig.json
+C:\Users\Islam Mohamed\source\repos\MVCTest8.0\Demo.DAL\obj\Debug\net8.0\Demo.DAL.genruntimeconfig.cache

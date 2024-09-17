@@ -1,0 +1,98 @@
+﻿@model EmployeeViewModel
+
+@{
+    var departments = new SelectList(ViewBag.departments, "Id", "Name");
+}
+
+@if (@Model.ImageName is not null)
+{
+    <div class="form-group">
+        <img src="~/Files/Images/@Model.ImageName" class="rounded " width="40" height="50">
+
+            <input asp-for="ImageName" hidden>
+    </div>
+}
+
+<div class="my-2">
+    <label class="col-form-label" asp-for="Name">
+    </label>
+    <input class="form-control" asp-for="Name" />
+    <span asp-validation-for="Name" class="text-danger"></span>
+</div>
+<div class="my-2">
+    <label class="col-form-label" asp-for="Image"></label>
+    <input class="form-control" asp-for="Image" />
+
+</div>
+<div class="my-2">
+    <label class="col-form-label" asp-for="Age">
+
+    </label>
+    <input class="form-control" asp-for="Age" />
+    <span asp-validation-for="Age" class="text-danger"></span>
+</div>
+<div class="my-2">
+    <label class="col-form-label" asp-for="Address">
+
+    </label>
+    <input class="form-control" asp-for="Address" />
+
+</div>
+<div class="my-2">
+    <label class="col-form-label" asp-for="Salary">
+
+    </label>
+    <input class="form-control" asp-for="Salary" />
+
+</div>
+<div class="row">
+    <div class="my-2 col-md-3">
+        <label class="col-form-label" asp-for="IsActive">
+
+        </label>
+        <select asp-for="IsActive" class="form-select">
+            <option value=true selected>True</option>
+            <option value=false>False</option>
+
+        </select>
+
+
+    </div>
+    <div class="my-2 col-md-9">
+        <label class="col-form-label" asp-for="Email">
+
+        </label>
+        <input class="form-control" asp-for="Email" />
+        <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
+</div>
+<div class="my-2">
+    <label class="col-form-label" asp-for="PhoneNumber">
+
+    </label>
+    <input class="form-control" asp-for="PhoneNumber" />
+    <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+</div>
+<div class="my-2">
+    <label class="col-form-label" asp-for="HireDate">
+
+    </label>
+    <input class="form-control" asp-for="HireDate" />
+
+</div>
+<div class="my-2">
+    <label class="col-form-label" asp-for="DateOfCreation">
+
+    </label>
+    <input class="form-control" asp-for="DateOfCreation" />
+
+</div>
+<div class="my-2">
+    <label class="col-form-label" asp-for="Department">
+
+    </label>
+    <select class="form-select" asp-items="@departments" asp-for="DepartmentId">
+    <option value="@null">Select Department</option>
+</select>
+
+</div>
