@@ -16,6 +16,7 @@ This Repository describes An MVC Project for ASP. NET which has two tables (Depa
   <li>Bootstrap</li>
   <li>jQuery</li>
   <li>jQuery Validation Script Section</li>
+  <li>Layouts</li>
   
   
   
