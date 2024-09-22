@@ -7,8 +7,7 @@
             //1-Get Located Folder Path
           
 
-            if (file is not null)
-            {
+
                 //F:\Route\Route C42\Cycle42\05 MVC\G01\Session03\DemoMvc.G01\Demp.Pl\wwwroot\Images\
                 string FolderPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", FolderName);
                 //2- Get File Name And Make It Unique
@@ -20,8 +19,8 @@
                 file.CopyTo(FileStream);
                 //- Return File Name 
                 return FileName;
-            }
-            return "";
+            
+            
             
         }
 

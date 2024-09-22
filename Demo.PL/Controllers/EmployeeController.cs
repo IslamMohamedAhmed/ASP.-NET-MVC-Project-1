@@ -52,7 +52,11 @@ namespace Demo.PL.Controllers
             ViewBag.departments = await unitOfWork.DepartmentRepository.GetAllAsync();
             if (ModelState.IsValid)
             {
-                employeeView.ImageName = DocumentSettings.UploadFile(employeeView.Image, "Images");
+                
+                if(employeeView.Image is not null)
+                {
+                    employeeView.ImageName = DocumentSettings.UploadFile(employeeView.Image, "Images");
+                }
                 var mappedEmployee = mapper.Map<EmployeeViewModel, Employee>(employeeView);
                 await unitOfWork.EmployeeRepository.AddAsync(mappedEmployee);
                 int result = await unitOfWork.Complete();
@@ -124,10 +128,7 @@ namespace Demo.PL.Controllers
                         DocumentSettings.DeleteFile(EmployeeImageBeforeUpdate, "Images");
                         employeeViewModel.ImageName = DocumentSettings.UploadFile(employeeViewModel.Image, "Images");
                     }
-                    else
-                    {
-                        employeeViewModel.ImageName = DocumentSettings.UploadFile(employeeViewModel.Image, "Images");
-                    }
+                    
                     var mappedEmployee = mapper.Map<EmployeeViewModel, Employee>(employeeViewModel);
                     unitOfWork.EmployeeRepository.Update(mappedEmployee);
                     int result = await unitOfWork.Complete();

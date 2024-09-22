@@ -1,5 +1,7 @@
 ﻿using Demo.DAL.Models;
+using Demo.PL.Helper;
 using Demo.PL.Models.ViewModels;
+using Humanizer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
@@ -99,18 +101,33 @@ namespace Demo.PL.Controllers
 		{
 			if (ModelState.IsValid)
 			{
-				var user = await
-	 userManager.FindByEmailAsync(model.Email);
-				if (user != null)
+
+				var user = await userManager.FindByEmailAsync(model.Email);
+				var code = await userManager.GeneratePasswordResetTokenAsync(user);
+				if (user is not null)
 				{
+
+					var ResetPasswordLink = Url.Action("ResetPassword", "Account", new { email = user.Email , token = code}, "https", "localhost:44377");
+					var email = new Email()
+					{
+						To = model.Email,
+						Subject = "Reset Password",
+						Body = ResetPasswordLink
+						
+					};
+					EmailSettings.SendEmail(email);
+				
 					// Generate password reset token
-					var
-	 code = await userManager.GeneratePasswordResetTokenAsync(user);
+
 
 					// Send password reset email
 					// ...
 
 					return RedirectToAction("CheckYourInbox");
+				}
+				else
+				{
+					ModelState.AddModelError(string.Empty, "Email doesn't exist!");
 				}
 				// Handle email not found error
 			}

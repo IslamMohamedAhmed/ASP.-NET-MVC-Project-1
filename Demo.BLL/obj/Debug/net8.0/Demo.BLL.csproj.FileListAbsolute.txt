@@ -13,3 +13,19 @@ C:\Users\Islam Mohamed\source\repos\MVCTest8.0\Demo.BLL\obj\Debug\net8.0\Demo.BL
 C:\Users\Islam Mohamed\source\repos\MVCTest8.0\Demo.BLL\obj\Debug\net8.0\refint\Demo.BLL.dll
 C:\Users\Islam Mohamed\source\repos\MVCTest8.0\Demo.BLL\obj\Debug\net8.0\Demo.BLL.pdb
 C:\Users\Islam Mohamed\source\repos\MVCTest8.0\Demo.BLL\obj\Debug\net8.0\ref\Demo.BLL.dll
+E:\ASP.-NET-MVC-Project-1\Demo.BLL\bin\Debug\net8.0\Demo.BLL.deps.json
+E:\ASP.-NET-MVC-Project-1\Demo.BLL\bin\Debug\net8.0\Demo.BLL.dll
+E:\ASP.-NET-MVC-Project-1\Demo.BLL\bin\Debug\net8.0\Demo.BLL.pdb
+E:\ASP.-NET-MVC-Project-1\Demo.BLL\bin\Debug\net8.0\Demo.DAL.dll
+E:\ASP.-NET-MVC-Project-1\Demo.BLL\bin\Debug\net8.0\Demo.DAL.pdb
+E:\ASP.-NET-MVC-Project-1\Demo.BLL\obj\Debug\net8.0\Demo.BLL.csproj.AssemblyReference.cache
+E:\ASP.-NET-MVC-Project-1\Demo.BLL\obj\Debug\net8.0\Demo.BLL.GeneratedMSBuildEditorConfig.editorconfig
+E:\ASP.-NET-MVC-Project-1\Demo.BLL\obj\Debug\net8.0\Demo.BLL.AssemblyInfoInputs.cache
+E:\ASP.-NET-MVC-Project-1\Demo.BLL\obj\Debug\net8.0\Demo.BLL.AssemblyInfo.cs
+E:\ASP.-NET-MVC-Project-1\Demo.BLL\obj\Debug\net8.0\Demo.BLL.csproj.CoreCompileInputs.cache
+E:\ASP.-NET-MVC-Project-1\Demo.BLL\obj\Debug\net8.0\Demo.BLL.sourcelink.json
+E:\ASP.-NET-MVC-Project-1\Demo.BLL\obj\Debug\net8.0\Demo.BLL.csproj.Up2Date
+E:\ASP.-NET-MVC-Project-1\Demo.BLL\obj\Debug\net8.0\Demo.BLL.dll
+E:\ASP.-NET-MVC-Project-1\Demo.BLL\obj\Debug\net8.0\refint\Demo.BLL.dll
+E:\ASP.-NET-MVC-Project-1\Demo.BLL\obj\Debug\net8.0\Demo.BLL.pdb
+E:\ASP.-NET-MVC-Project-1\Demo.BLL\obj\Debug\net8.0\ref\Demo.BLL.dll

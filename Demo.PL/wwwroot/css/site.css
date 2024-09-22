@@ -1,11 +1,17 @@
 html {
-  font-size: 14px;
+  font-size: 16px;
 }
 
 @media (min-width: 768px) {
   html {
     font-size: 16px;
   }
+}
+* {
+    font-family: "sofadia";
+}
+td {
+    overflow: hidden;
 }
 
 .btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
@@ -20,3 +26,10 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+@font-face{
+    src: url("../Fonts/SofadiOne-Regular.ttf");
+    font-family: "sofadia";
+}
+
+

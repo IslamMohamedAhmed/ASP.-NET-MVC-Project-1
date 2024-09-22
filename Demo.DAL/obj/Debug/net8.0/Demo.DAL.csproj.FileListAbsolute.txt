@@ -12,3 +12,18 @@ C:\Users\Islam Mohamed\source\repos\MVCTest8.0\Demo.DAL\obj\Debug\net8.0\Demo.DA
 C:\Users\Islam Mohamed\source\repos\MVCTest8.0\Demo.DAL\obj\Debug\net8.0\ref\Demo.DAL.dll
 C:\Users\Islam Mohamed\source\repos\MVCTest8.0\Demo.DAL\bin\Debug\net8.0\Demo.DAL.runtimeconfig.json
 C:\Users\Islam Mohamed\source\repos\MVCTest8.0\Demo.DAL\obj\Debug\net8.0\Demo.DAL.genruntimeconfig.cache
+E:\ASP.-NET-MVC-Project-1\Demo.DAL\bin\Debug\net8.0\Demo.DAL.deps.json
+E:\ASP.-NET-MVC-Project-1\Demo.DAL\bin\Debug\net8.0\Demo.DAL.runtimeconfig.json
+E:\ASP.-NET-MVC-Project-1\Demo.DAL\bin\Debug\net8.0\Demo.DAL.dll
+E:\ASP.-NET-MVC-Project-1\Demo.DAL\bin\Debug\net8.0\Demo.DAL.pdb
+E:\ASP.-NET-MVC-Project-1\Demo.DAL\obj\Debug\net8.0\Demo.DAL.csproj.AssemblyReference.cache
+E:\ASP.-NET-MVC-Project-1\Demo.DAL\obj\Debug\net8.0\Demo.DAL.GeneratedMSBuildEditorConfig.editorconfig
+E:\ASP.-NET-MVC-Project-1\Demo.DAL\obj\Debug\net8.0\Demo.DAL.AssemblyInfoInputs.cache
+E:\ASP.-NET-MVC-Project-1\Demo.DAL\obj\Debug\net8.0\Demo.DAL.AssemblyInfo.cs
+E:\ASP.-NET-MVC-Project-1\Demo.DAL\obj\Debug\net8.0\Demo.DAL.csproj.CoreCompileInputs.cache
+E:\ASP.-NET-MVC-Project-1\Demo.DAL\obj\Debug\net8.0\Demo.DAL.sourcelink.json
+E:\ASP.-NET-MVC-Project-1\Demo.DAL\obj\Debug\net8.0\Demo.DAL.dll
+E:\ASP.-NET-MVC-Project-1\Demo.DAL\obj\Debug\net8.0\refint\Demo.DAL.dll
+E:\ASP.-NET-MVC-Project-1\Demo.DAL\obj\Debug\net8.0\Demo.DAL.pdb
+E:\ASP.-NET-MVC-Project-1\Demo.DAL\obj\Debug\net8.0\Demo.DAL.genruntimeconfig.cache
+E:\ASP.-NET-MVC-Project-1\Demo.DAL\obj\Debug\net8.0\ref\Demo.DAL.dll
