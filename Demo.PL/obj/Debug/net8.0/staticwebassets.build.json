@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "d9mqwV1BXHm/Bp7N2hSQ4vUqCfw5taGv0uCAGytNCfA=",
+  "Hash": "H/qCwdIwl3a0vmuyBswyt70kQGxEnwF5ts8TofWl6+Y=",
   "Source": "Demo.PL",
   "BasePath": "_content/Demo.PL",
   "Mode": "Default",
@@ -283,6 +283,25 @@
       "OriginalItemSpec": "wwwroot\\Images\\57fcb719-8ae1-4f9e-af4a-16dd2970a7f4IClonable with copy constructor.png"
     },
     {
+      "Identity": "E:\\ASP.-NET-MVC-Project-1\\Demo.PL\\wwwroot\\Images\\5a6110a3-5ebd-483e-be04-3c9917c7784bcar7en.bmp",
+      "SourceId": "Demo.PL",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\ASP.-NET-MVC-Project-1\\Demo.PL\\wwwroot\\",
+      "BasePath": "_content/Demo.PL",
+      "RelativePath": "Images/5a6110a3-5ebd-483e-be04-3c9917c7784bcar7en.bmp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\5a6110a3-5ebd-483e-be04-3c9917c7784bcar7en.bmp"
+    },
+    {
       "Identity": "E:\\ASP.-NET-MVC-Project-1\\Demo.PL\\wwwroot\\Images\\63a0329c-8bb9-454d-a421-4b9e49504a07toyecatxislam_2.bmp",
       "SourceId": "Demo.PL",
       "SourceType": "Discovered",
@@ -359,25 +378,6 @@
       "OriginalItemSpec": "wwwroot\\Images\\85887226-8e22-4923-b5c4-925563214e2fcar7en.bmp"
     },
     {
-      "Identity": "E:\\ASP.-NET-MVC-Project-1\\Demo.PL\\wwwroot\\Images\\96404bf7-4873-436e-92bf-26e6c4723935two.jpg",
-      "SourceId": "Demo.PL",
-      "SourceType": "Discovered",
-      "ContentRoot": "E:\\ASP.-NET-MVC-Project-1\\Demo.PL\\wwwroot\\",
-      "BasePath": "_content/Demo.PL",
-      "RelativePath": "Images/96404bf7-4873-436e-92bf-26e6c4723935two.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\96404bf7-4873-436e-92bf-26e6c4723935two.jpg"
-    },
-    {
       "Identity": "E:\\ASP.-NET-MVC-Project-1\\Demo.PL\\wwwroot\\Images\\9dcbbb2d-2452-4be3-9472-91aaeb00ab69three.jpg",
       "SourceId": "Demo.PL",
       "SourceType": "Discovered",
@@ -433,6 +433,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\a9c89e4f-30bd-478c-8890-ec9fc273fa26two.png"
+    },
+    {
+      "Identity": "E:\\ASP.-NET-MVC-Project-1\\Demo.PL\\wwwroot\\Images\\abda1992-c45b-43f3-a31e-c3d204db82cctwo.jpg",
+      "SourceId": "Demo.PL",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\ASP.-NET-MVC-Project-1\\Demo.PL\\wwwroot\\",
+      "BasePath": "_content/Demo.PL",
+      "RelativePath": "Images/abda1992-c45b-43f3-a31e-c3d204db82cctwo.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\abda1992-c45b-43f3-a31e-c3d204db82cctwo.jpg"
     },
     {
       "Identity": "E:\\ASP.-NET-MVC-Project-1\\Demo.PL\\wwwroot\\Images\\ca5f03a7-6ff0-439c-8e32-e9913dc7ac73two.png",

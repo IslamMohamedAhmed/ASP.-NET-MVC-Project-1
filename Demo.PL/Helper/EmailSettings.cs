@@ -10,7 +10,7 @@ namespace Demo.PL.Helper
 		{
 			var client = new SmtpClient("smtp.gmail.com",587);
 			client.EnableSsl = true;
-			client.Credentials = new NetworkCredential("nanorules714@gmail.com", "mckw pftm twde abac");
+			client.Credentials = new NetworkCredential("nanorules714@gmail.com", "mckwpftmtwdeabac");
 			client.Send("nanorules714@gmail.com", email.To, email.Subject, email.Body);
 
 		}
